@@ -7,19 +7,15 @@ my-app/
     index.html // Page Template
     favicon.ico
   src/
-    App.css
+    App.css // for Responsiveness
     App.js // Root component of the application
     App.test.js
     index.css
     index.js
     logo.svg
-    containers/
-      ImageDetail/ // Renders singe image with metaData
-      ImageList/ // Renders list of images on right
+    carousel/
+      CarouselSlide/ 
+      React-Responsive-Carousel-Container.js/
+      React-Responsive-Carousel.js
     images/ // .jpg files
-    redux/
-      actions/ 
-      reducer/ 
-      store.js
-    routes/
-      index.js // Entry point to the application
+    
